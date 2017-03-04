@@ -7,15 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8083BA19B2028F179D99A9D /* libPods-CoolAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA47C6CF1CFEE42484EBF105 /* libPods-CoolAds.a */; };
+		F9310BD31D3D0F0300CC44E0 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9310BD21D3D0F0300CC44E0 /* WebViewController.m */; };
+		F939BF4E1D3696650056661C /* MainNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F939BF4D1D3696650056661C /* MainNavViewController.m */; };
+		F939BF511D3696BE0056661C /* MediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F939BF501D3696BE0056661C /* MediaViewController.m */; };
+		F939BF541D3696D40056661C /* AvViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F939BF531D3696D40056661C /* AvViewController.m */; };
+		F939BF571D36976B0056661C /* ImgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F939BF561D36976B0056661C /* ImgViewController.m */; };
+		F939C4BA1D31F43100DA3CBE /* PLPMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = F939C4B91D31F43100DA3CBE /* PLPMedia.m */; };
+		F939C4BD1D31F46500DA3CBE /* PLPFileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F939C4BC1D31F46500DA3CBE /* PLPFileHelper.m */; };
+		F939C4C01D31F51400DA3CBE /* PLPImg.m in Sources */ = {isa = PBXBuildFile; fileRef = F939C4BF1D31F51400DA3CBE /* PLPImg.m */; };
+		F939C4C31D31F52200DA3CBE /* PLPVid.m in Sources */ = {isa = PBXBuildFile; fileRef = F939C4C21D31F52200DA3CBE /* PLPVid.m */; };
 		F9BA451A1D2D2C0200E4C5A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BA45191D2D2C0200E4C5A6 /* main.m */; };
 		F9BA451D1D2D2C0200E4C5A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BA451C1D2D2C0200E4C5A6 /* AppDelegate.m */; };
 		F9BA45201D2D2C0200E4C5A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BA451F1D2D2C0200E4C5A6 /* ViewController.m */; };
 		F9BA45231D2D2C0200E4C5A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BA45211D2D2C0200E4C5A6 /* Main.storyboard */; };
 		F9BA45251D2D2C0200E4C5A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BA45241D2D2C0200E4C5A6 /* Assets.xcassets */; };
 		F9BA45281D2D2C0200E4C5A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BA45261D2D2C0200E4C5A6 /* LaunchScreen.storyboard */; };
+		F9BA45301D2D584F00E4C5A6 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9BA452F1D2D584F00E4C5A6 /* config.plist */; };
+		F9BA45391D2D62F900E4C5A6 /* PLPConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BA45381D2D62F900E4C5A6 /* PLPConfig.m */; };
+		F9E020CD1D3112FB005EAE0D /* ExtGCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E020CC1D3112FB005EAE0D /* ExtGCloud.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09944A5DD50ABB6677F5BF45 /* Pods-CoolAds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolAds.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoolAds/Pods-CoolAds.debug.xcconfig"; sourceTree = "<group>"; };
+		586E8A789A8C2BB00B1F1524 /* Pods-CoolAds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolAds.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoolAds/Pods-CoolAds.release.xcconfig"; sourceTree = "<group>"; };
+		F9310BD11D3D0F0300CC44E0 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		F9310BD21D3D0F0300CC44E0 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		F939BF4C1D3696650056661C /* MainNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavViewController.h; sourceTree = "<group>"; };
+		F939BF4D1D3696650056661C /* MainNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavViewController.m; sourceTree = "<group>"; };
+		F939BF4F1D3696BE0056661C /* MediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaViewController.h; sourceTree = "<group>"; };
+		F939BF501D3696BE0056661C /* MediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaViewController.m; sourceTree = "<group>"; };
+		F939BF521D3696D40056661C /* AvViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvViewController.h; sourceTree = "<group>"; };
+		F939BF531D3696D40056661C /* AvViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvViewController.m; sourceTree = "<group>"; };
+		F939BF551D36976B0056661C /* ImgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgViewController.h; sourceTree = "<group>"; };
+		F939BF561D36976B0056661C /* ImgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgViewController.m; sourceTree = "<group>"; };
+		F939C4B81D31F43100DA3CBE /* PLPMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLPMedia.h; sourceTree = "<group>"; };
+		F939C4B91D31F43100DA3CBE /* PLPMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLPMedia.m; sourceTree = "<group>"; };
+		F939C4BB1D31F46500DA3CBE /* PLPFileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLPFileHelper.h; sourceTree = "<group>"; };
+		F939C4BC1D31F46500DA3CBE /* PLPFileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLPFileHelper.m; sourceTree = "<group>"; };
+		F939C4BE1D31F51400DA3CBE /* PLPImg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLPImg.h; sourceTree = "<group>"; };
+		F939C4BF1D31F51400DA3CBE /* PLPImg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLPImg.m; sourceTree = "<group>"; };
+		F939C4C11D31F52200DA3CBE /* PLPVid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLPVid.h; sourceTree = "<group>"; };
+		F939C4C21D31F52200DA3CBE /* PLPVid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLPVid.m; sourceTree = "<group>"; };
 		F9BA45151D2D2C0200E4C5A6 /* CoolAds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolAds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BA45191D2D2C0200E4C5A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F9BA451B1D2D2C0200E4C5A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +59,12 @@
 		F9BA45241D2D2C0200E4C5A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9BA45271D2D2C0200E4C5A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9BA45291D2D2C0200E4C5A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BA452F1D2D584F00E4C5A6 /* config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
+		F9BA45371D2D62F900E4C5A6 /* PLPConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLPConfig.h; sourceTree = "<group>"; };
+		F9BA45381D2D62F900E4C5A6 /* PLPConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLPConfig.m; sourceTree = "<group>"; };
+		F9E020CB1D3112FB005EAE0D /* ExtGCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtGCloud.h; sourceTree = "<group>"; };
+		F9E020CC1D3112FB005EAE0D /* ExtGCloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtGCloud.m; sourceTree = "<group>"; };
+		FA47C6CF1CFEE42484EBF105 /* libPods-CoolAds.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoolAds.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +72,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8083BA19B2028F179D99A9D /* libPods-CoolAds.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		951C5153BAE9FF8D6B31B652 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09944A5DD50ABB6677F5BF45 /* Pods-CoolAds.debug.xcconfig */,
+				586E8A789A8C2BB00B1F1524 /* Pods-CoolAds.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD349C8C471DE1809559F091 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA47C6CF1CFEE42484EBF105 /* libPods-CoolAds.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F9BA450C1D2D2C0200E4C5A6 = {
 			isa = PBXGroup;
 			children = (
 				F9BA45171D2D2C0200E4C5A6 /* CoolAds */,
 				F9BA45161D2D2C0200E4C5A6 /* Products */,
+				951C5153BAE9FF8D6B31B652 /* Pods */,
+				CD349C8C471DE1809559F091 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +126,29 @@
 				F9BA45261D2D2C0200E4C5A6 /* LaunchScreen.storyboard */,
 				F9BA45291D2D2C0200E4C5A6 /* Info.plist */,
 				F9BA45181D2D2C0200E4C5A6 /* Supporting Files */,
+				F9BA452F1D2D584F00E4C5A6 /* config.plist */,
+				F9BA45371D2D62F900E4C5A6 /* PLPConfig.h */,
+				F9BA45381D2D62F900E4C5A6 /* PLPConfig.m */,
+				F9E020CB1D3112FB005EAE0D /* ExtGCloud.h */,
+				F9E020CC1D3112FB005EAE0D /* ExtGCloud.m */,
+				F939C4B81D31F43100DA3CBE /* PLPMedia.h */,
+				F939C4B91D31F43100DA3CBE /* PLPMedia.m */,
+				F939C4BB1D31F46500DA3CBE /* PLPFileHelper.h */,
+				F939C4BC1D31F46500DA3CBE /* PLPFileHelper.m */,
+				F939C4BE1D31F51400DA3CBE /* PLPImg.h */,
+				F939C4BF1D31F51400DA3CBE /* PLPImg.m */,
+				F939C4C11D31F52200DA3CBE /* PLPVid.h */,
+				F939C4C21D31F52200DA3CBE /* PLPVid.m */,
+				F939BF4C1D3696650056661C /* MainNavViewController.h */,
+				F939BF4D1D3696650056661C /* MainNavViewController.m */,
+				F939BF4F1D3696BE0056661C /* MediaViewController.h */,
+				F939BF501D3696BE0056661C /* MediaViewController.m */,
+				F939BF521D3696D40056661C /* AvViewController.h */,
+				F939BF531D3696D40056661C /* AvViewController.m */,
+				F939BF551D36976B0056661C /* ImgViewController.h */,
+				F939BF561D36976B0056661C /* ImgViewController.m */,
+				F9310BD11D3D0F0300CC44E0 /* WebViewController.h */,
+				F9310BD21D3D0F0300CC44E0 /* WebViewController.m */,
 			);
 			path = CoolAds;
 			sourceTree = "<group>";
@@ -86,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9BA452C1D2D2C0200E4C5A6 /* Build configuration list for PBXNativeTarget "CoolAds" */;
 			buildPhases = (
+				4C342C2BC2A10E68FFFEEBC3 /* [CP] Check Pods Manifest.lock */,
 				F9BA45111D2D2C0200E4C5A6 /* Sources */,
 				F9BA45121D2D2C0200E4C5A6 /* Frameworks */,
 				F9BA45131D2D2C0200E4C5A6 /* Resources */,
+				64A12CB862C1D16AC422C973 /* [CP] Embed Pods Frameworks */,
+				629347937CB2FA3FCA69B2FC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +195,7 @@
 				TargetAttributes = {
 					F9BA45141D2D2C0200E4C5A6 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = R6MFXFY62M;
 					};
 				};
 			};
@@ -136,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9BA45301D2D584F00E4C5A6 /* config.plist in Resources */,
 				F9BA45281D2D2C0200E4C5A6 /* LaunchScreen.storyboard in Resources */,
 				F9BA45251D2D2C0200E4C5A6 /* Assets.xcassets in Resources */,
 				F9BA45231D2D2C0200E4C5A6 /* Main.storyboard in Resources */,
@@ -144,14 +231,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C342C2BC2A10E68FFFEEBC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		629347937CB2FA3FCA69B2FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoolAds/Pods-CoolAds-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64A12CB862C1D16AC422C973 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoolAds/Pods-CoolAds-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F9BA45111D2D2C0200E4C5A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9BA45391D2D62F900E4C5A6 /* PLPConfig.m in Sources */,
+				F9310BD31D3D0F0300CC44E0 /* WebViewController.m in Sources */,
+				F939C4C31D31F52200DA3CBE /* PLPVid.m in Sources */,
 				F9BA45201D2D2C0200E4C5A6 /* ViewController.m in Sources */,
+				F939BF571D36976B0056661C /* ImgViewController.m in Sources */,
+				F939BF541D3696D40056661C /* AvViewController.m in Sources */,
 				F9BA451D1D2D2C0200E4C5A6 /* AppDelegate.m in Sources */,
+				F939C4BD1D31F46500DA3CBE /* PLPFileHelper.m in Sources */,
+				F939C4C01D31F51400DA3CBE /* PLPImg.m in Sources */,
+				F9E020CD1D3112FB005EAE0D /* ExtGCloud.m in Sources */,
+				F939BF511D3696BE0056661C /* MediaViewController.m in Sources */,
 				F9BA451A1D2D2C0200E4C5A6 /* main.m in Sources */,
+				F939C4BA1D31F43100DA3CBE /* PLPMedia.m in Sources */,
+				F939BF4E1D3696650056661C /* MainNavViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,23 +409,35 @@
 		};
 		F9BA452D1D2D2C0200E4C5A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09944A5DD50ABB6677F5BF45 /* Pods-CoolAds.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = CoolAds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ppl.cools.CoolAds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		F9BA452E1D2D2C0200E4C5A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 586E8A789A8C2BB00B1F1524 /* Pods-CoolAds.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = CoolAds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ppl.cools.CoolAds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -302,6 +460,7 @@
 				F9BA452E1D2D2C0200E4C5A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
